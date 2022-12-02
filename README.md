@@ -4,7 +4,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -70,12 +69,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Loom demo video](https://www.loom.com/share/343fb69efca643659e8c827f8fe1d58e)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -98,6 +91,8 @@ Clone this repository to your desired folder:
 You can deploy this project using:
 
 https://haliljon.github.io/AI_Summit/
+
+- [Loom demo video](- [Loom demo video](https://www.loom.com/share/343fb69efca643659e8c827f8fe1d58e))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,5 +117,15 @@ Feel free to check the [issues page](https://github.com/haliljon/AI_Summit/issue
 ## ⭐️ Show your support <a name="support"></a>
 
 Please consider giving a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Author of the original design
+- Credit to [cindy shin](https://www.behance.net/adagio07)
+- [Creative Commons License](https://creativecommons.org/licenses/).
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

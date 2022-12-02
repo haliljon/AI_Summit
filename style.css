@@ -26,11 +26,6 @@
   color: #ec5242;
 }
 
-#hello h1 {
-  font-weight: 900;
-  width: 85%;
-}
-
 .header1 {
   display: none;
 }
@@ -53,7 +48,10 @@
   width: 100vw;
   height: 100vh;
 }
-
+#hello h1 {
+  font-weight: 900;
+  width: 85%;
+}
 .nav-on-top ul {
   width: 80%;
   margin: 40px;
@@ -289,7 +287,12 @@
     background-color: #272a31;
     padding: 15px 0;
   }
-
+  #hello h1 {
+    font-size: 50px;
+  }
+  #hello h3 {
+    font-size: 35px;
+  }
   #campaign {
     border: solid 3px #ec5242;
     padding: 10px;
@@ -363,7 +366,7 @@
   .wholeProject {
     display: block;
     text-align: center;
-    text-decoration: none;
+    text-decoration: underline;
     color: #d3d3d3 !important;
   }
 
