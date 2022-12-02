@@ -59,17 +59,17 @@ const div = document.createElement('div');
 div.innerHTML = `<h3 id="h3Speakers" class="pt-5 pb-2">Featured Speakers</h3>
 <hr id="hrMain"
 />`;
-let divGrid = document.createElement('div');
+const divGrid = document.createElement('div');
 divGrid.className = 'grid1';
 
-let divHidden = document.createElement('div');
+const divHidden = document.createElement('div');
 // divHidden.setAttribute('id', 'demo');
 divHidden.className = 'notShow';
 
-let divList = document.createElement('div');
+const divList = document.createElement('div');
 divList.className = 'speakerList';
 function addSpeakers() {
-  for (let i = 0; i < speakersObj.length; i++) {
+  for (let i = 0; i < speakersObj.length; i += 1) {
     divList.innerHTML = `<div class="speakerImg"
   ><img src=${speakersObj[i].image} alt="Speaker photo" /></div
     ><div class="speakerContent"
@@ -97,14 +97,11 @@ const buttonLess = document.querySelector('#buttonLess');
 sectionSpeaker.insertBefore(div, buttonMore);
 sectionSpeaker.insertBefore(divGrid, buttonMore);
 
-const main = document.querySelector('main');
-
 if (window.innerWidth > 768) {
   sectionSpeaker.insertBefore(divHidden, buttonMore);
   buttonMore.style.display = 'none';
   buttonLess.style.display = 'none';
-}
-{
+} else {
   buttonMore.addEventListener('click', () => {
     sectionSpeaker.insertBefore(divHidden, buttonMore);
     buttonMore.style.display = 'none';
@@ -116,3 +113,20 @@ if (window.innerWidth > 768) {
     buttonLess.style.display = 'none';
   });
 }
+
+/* MENU POpup */
+const menu = document.querySelector('.nav-on-top');
+const hamburger = document.querySelector('#hamburger-btn');
+
+function openMenu() {
+  menu.style.display = 'block';
+  hamburger.style.display = 'none';
+}
+
+function closeMenu() {
+  menu.style.display = 'none';
+  hamburger.style.display = 'block';
+}
+
+document.querySelector('#hamburger-btn').addEventListener('click', openMenu());
+document.querySelector('#close-btn').addEventListener('click', closeMenu());

@@ -85,14 +85,37 @@
     </header>
     <main>
       <section class="home container-fluid pb-5">
-        <nav class="container" id="menu-btn"
-          ><a href="#"
-            ><ion-icon
-              name="menu-outline"
-              class="icons"
-              id="menu-btn"
-            ></ion-icon></a
-        ></nav>
+        <nav class="container"
+      ><a href="javascript:openMenu()" id="hamburger-btn"
+        ><ion-icon name="menu-outline" class="icons"></ion-icon></a
+    ></nav>
+    <div class="nav-on-top">
+      <ul>
+        <li class="nav-list-items">
+          <a href="javascript:closeMenu()" id="close-btn"
+            ><ion-icon name="close-outline"></ion-icon
+          ></a>
+        </li>
+        <li class="nav-list-items" onclick="closeMenu()">
+          <a href="./about.html">About</a>
+        </li>
+        <li class="nav-list-items" onclick="closeMenu()">
+          <a href="#">Program</a>
+        </li>
+        <li class="nav-list-items" onclick="closeMenu()">
+          <a href="#">Join</a>
+        </li>
+        <li class="nav-list-items" onclick="closeMenu()">
+          <a href="#">Sponsor</a>
+        </li>
+        <li class="nav-list-items" onclick="closeMenu()">
+          <a href="#">News</a>
+        </li>
+        <li class="nav-list-items" onclick="closeMenu()">
+          <a href="#" id="campaign">SAI Campaign</a>
+        </li>
+      </ul>
+    </div>
         <div id="hello" class="container mt-5"
           ><h3>"Hello! Fintech world"</h3>
           <h1 class="mt-4"
