@@ -4,10 +4,10 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -68,6 +68,13 @@
 - **Animations**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🚀 Live Demo <a name="live-demo"></a>
+
+https://haliljon.github.io/AI_Summit/
+
+- [Loom demo video](https://www.loom.com/share/343fb69efca643659e8c827f8fe1d58e)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -85,16 +92,6 @@ Clone this repository to your desired folder:
   cd my-folder
   git clone https://github.com/haliljon/AI_Summit.git
 ```
-
-### Deployment
-
-You can deploy this project using:
-
-https://haliljon.github.io/AI_Summit/
-
-- [Loom demo video](https://www.loom.com/share/343fb69efca643659e8c827f8fe1d58e)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
