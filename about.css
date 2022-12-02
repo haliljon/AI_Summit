@@ -1,0 +1,153 @@
+#hello {
+  text-align: center;
+}
+
+#hello h1 {
+  margin: auto;
+}
+
+#paragraph {
+  margin: auto;
+  text-align: center;
+}
+
+#emailAddress {
+  text-align: center;
+  width: 70%;
+}
+
+#hrAbout {
+  border: 1px solid #ec5242;
+  width: 7%;
+  opacity: 1;
+  margin: auto;
+}
+
+#h3Logo {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+#logoCompetition {
+  padding: 25px 0;
+  margin: auto;
+  text-align: center;
+  width: 70%;
+}
+
+#saiLogo {
+  width: 80%;
+  border: 1px solid #d3d3d3;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+#imageLogo {
+  width: 100%;
+  height: auto;
+}
+
+#hrSeparation {
+  margin: 45px 0;
+}
+
+#pastProjects {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.pastProject-1 {
+  background:
+    linear-gradient(rgba(191, 82, 61, 0.7), rgba(191, 82, 61, 0.7)),
+    url(./images/australia.jpeg);
+  background-size: cover;
+  width: 85%;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+.pastProject-2 {
+  background:
+    linear-gradient(rgba(191, 82, 61, 0.7), rgba(191, 82, 61, 0.7)),
+    url(./images/yaskawa.jpeg);
+  background-size: cover;
+  width: 85%;
+  padding: 60px 20px;
+  margin: auto;
+}
+
+.pastProject-1 h5,
+.pastProject-2 h5 {
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.pastProject-1 h6,
+.pastProject-2 h6 {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.seePastProjects {
+  margin-bottom: 50px;
+}
+
+#footer-img {
+  margin-left: 50px;
+}
+
+/*  Media Queries  */
+
+@media (min-width: 768px) {
+  .partner-item {
+    font-size: 30px;
+  }
+
+  .partnerContent {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    padding-bottom: 70px;
+  }
+
+  #hello h3 {
+    display: none;
+  }
+
+  #paragraph {
+    max-width: 85%;
+  }
+
+  #saiLogo {
+    width: 40%;
+  }
+
+  #pastProjects {
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+  }
+
+  .partners {
+    display: none;
+  }
+
+  .footer {
+    background-color: #272a31;
+    width: 100vw;
+    margin: 0;
+    padding: 50px;
+  }
+
+  #footer-img {
+    display: none;
+  }
+
+  .copyright,
+  .footer-nav {
+    color: #fff;
+  }
+}
