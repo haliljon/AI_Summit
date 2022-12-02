@@ -92,7 +92,7 @@ You can deploy this project using:
 
 https://haliljon.github.io/AI_Summit/
 
-- [Loom demo video](- [Loom demo video](https://www.loom.com/share/343fb69efca643659e8c827f8fe1d58e))
+- [Loom demo video](https://www.loom.com/share/343fb69efca643659e8c827f8fe1d58e)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
