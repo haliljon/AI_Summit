@@ -59,7 +59,8 @@
 }
 
 .pastProject-1 {
-  background: linear-gradient(rgba(191, 82, 61, 0.7), rgba(191, 82, 61, 0.7)),
+  background:
+    linear-gradient(rgba(191, 82, 61, 0.7), rgba(191, 82, 61, 0.7)),
     url(./images/australia.jpeg);
   background-size: cover;
   width: 85%;
@@ -68,7 +69,8 @@
 }
 
 .pastProject-2 {
-  background: linear-gradient(rgba(191, 82, 61, 0.7), rgba(191, 82, 61, 0.7)),
+  background:
+    linear-gradient(rgba(191, 82, 61, 0.7), rgba(191, 82, 61, 0.7)),
     url(./images/yaskawa.jpeg);
   background-size: cover;
   width: 85%;
@@ -93,9 +95,11 @@
 .seePastProjects {
   margin-bottom: 50px;
 }
+
 #footer-img {
   margin-left: 50px;
 }
+
 /*  Media Queries  */
 
 @media (min-width: 768px) {
@@ -126,18 +130,22 @@
     width: 70%;
     margin: auto;
   }
+
   .partners {
     display: none;
   }
+
   .footer {
     background-color: #272a31;
     width: 100vw;
     margin: 0;
     padding: 50px;
   }
+
   #footer-img {
     display: none;
   }
+
   .copyright,
   .footer-nav {
     color: #fff;
